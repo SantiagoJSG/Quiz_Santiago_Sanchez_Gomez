@@ -12,9 +12,10 @@ namespace Quiz_Santiago_Sánchez_Gòmez
 {
     public partial class Report : Form
     {
-        public Report()
+        public Report(string texto)
         {
             InitializeComponent();
+            rtxtResults.Text = texto;
         }
     }
 }
